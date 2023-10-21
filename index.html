@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>JS Coder house Lucas Sammarco</title>
+</head>
+<body>
+    <section class="portada">
+        <h1>Tienda Ropa Bariloche</h1>
+    
+        <nav class="barra-navegacion">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                    <a href="#" id="contacto">Contacto</a>
+                    <a href="#" id="botonCarrito">Ver Carrito</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="carrito desactivado" id="carritoContenedor">
+
+        </div>
+        <button id="botonBorrarLocalStorage" class="boton_limpiar">Limpiar Carrito</button>
+    </section>
+    
+    
+    <section class="contenedor">
+    
+        <h2>Nuestros Modelos de Zapatillas</h2>
+        <div class = "zapatillas" id="contenedorZapatillas">
+
+        </div>
+    </section>
+    
+    <section class="contenedor">
+        
+        <h2>Pantalones!</h2>
+        <div class = "zapatillas" id="contenedorPantalones">
+
+        </div>
+    </section>
+    
+    <section class="contenedor">
+        
+        <h2>Buzos!</h2>
+        <div class = "zapatillas" id="contenedorBuzos">
+
+        </div>
+    
+    </section>
+    <div class="contenedor">
+        <h2>Te gustaria ver las reseñas de nuestros productos!? </h2>
+        <div>
+            <button id = "mostrarReseña" class="boton_reseñas">Ver reseñas</button>
+        </div>
+    </div>
+    <div id ="reseñasContainer"></div>
+
+    <footer>
+        <div class="footer">
+            <p>Derechos totales a Lucas Sammarco</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+    
+    
+</body>
+
+
+</html>

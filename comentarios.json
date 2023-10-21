@@ -1,0 +1,71 @@
+{
+    "tienda": "Ejemplo Tienda de Ropa",
+    "productos": {
+        "pantalones": [
+            {
+                "nombre": "Pantalón Casual",
+                "reseñas": [
+                    {
+                        "usuario": "Cliente123",
+                        "calificacion": 5,
+                        "comentario": "Me encanta este pantalón, es muy cómodo y de buena calidad. Lo recomiendo totalmente."
+                    },
+                    {
+                        "usuario": "Cliente456",
+                        "calificacion": 4,
+                        "comentario": "Buen pantalón para el precio, se ajusta bien y tiene bolsillos amplios. Buena compra."
+                    }
+                ]
+            },
+            {
+                "nombre": "Pantalón Deportivo",
+                "reseñas": [
+                    {
+                        "usuario": "Cliente789",
+                        "calificacion": 5,
+                        "comentario": "Perfecto para hacer ejercicio, material transpirable y elástico. Lo uso para correr y es genial."
+                    },
+                    {
+                        "usuario": "Cliente101",
+                        "calificacion": 3,
+                        "comentario": "Es un pantalón decente, pero se estira un poco con el tiempo. Podría ser mejor en términos de durabilidad."
+                    }
+                ]
+            }
+        ],
+        "zapatillas": [
+            {
+                "nombre": "Zapatillas Deportivas",
+                "reseñas": [
+                    {
+                        "usuario": "Cliente111",
+                        "calificacion": 4,
+                        "comentario": "Muy cómodas para caminar largas distancias. Se ven elegantes y la suela proporciona buen agarre."
+                    },
+                    {
+                        "usuario": "Cliente222",
+                        "calificacion": 5,
+                        "comentario": "Excelente calidad. Las uso para correr y el soporte es increíble. No me duele nada después de correr varios kilómetros."
+                    }
+                ]
+            }
+        ],
+        "buzos": [
+            {
+                "nombre": "Buzo con Capucha",
+                "reseñas": [
+                    {
+                        "usuario": "Cliente333",
+                        "calificacion": 5,
+                        "comentario": "Me encanta este buzo, es súper suave por dentro y abrigado. La capucha es grande y cómoda. Definitivamente lo compraría de nuevo."
+                    },
+                    {
+                        "usuario": "Cliente444",
+                        "calificacion": 4,
+                        "comentario": "Buen buzo, pero el color se desvaneció un poco después de lavarlo varias veces. Aún así, es cómodo y lo uso con frecuencia."
+                    }
+                ]
+            }
+        ]
+    }
+}

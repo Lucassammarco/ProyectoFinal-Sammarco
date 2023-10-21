@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portada{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.barra-navegacion{
+    background-color: rgb(58, 58, 180);
+    width: 100%;
+    margin-top: 10px;
+}
+.barra-navegacion li{
+    display: flex;
+    justify-content: space-around;
+}
+.barra-navegacion a{   
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.zapatillas {
+    display: flex;
+    justify-content: space-evenly;
+}
+.desactivado{
+    display: none !important;
+}
+.activado{
+    display: block !important;
+}
+.carrito{
+   border:solid 2px;
+   border-color: blue;
+   min-height: 2rem;
+   
+}
+.botonCarrito{
+
+}
+.tarjeta{
+    border: solid 2px black;
+    border-radius: 7px;
+    height: 380px;
+    width: 30%;
+    background-color: rgba(165, 157, 147, 0.336);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+.tarjeta img{
+    height: 80%;
+    width: 100%;
+    border-radius: 7px;
+    border-bottom: solid 2px black;
+
+}
+
+.datos_tarjeta1{
+    display: flex;
+    flex-direction: column;
+}
+
+.datos_tarjeta2{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.btn{
+    background-color: rgb(72, 157, 72);
+    color: #fff; 
+    border: none; 
+    padding: 2px;
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: rgb(52, 117, 52);
+}
+.boton_limpiar{
+    margin-top: 10px;
+    background-color: #ff6666; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+.boton_limpiar:hover{
+    background-color: #ff3333; 
+}
+
+.selector{
+    width: 40px;
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(58, 58, 180);
+    color: white;
+    text-align: center;
+
+}
+/* estilo para las tarjetas de reseña */
+.tarjetaReseña {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.tarjetaReseña:hover {
+    transform: translateY(-5px);
+}
+
+.tarjetaReseña h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.tarjetaReseña p {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* estilo para el boton de reseña*/
+.boton_reseñas {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 300px;
+    
+}
+
+.boton_reseñas:hover {
+    background-color: #0056b3;
+}
